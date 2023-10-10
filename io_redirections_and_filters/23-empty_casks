@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -minlength 1 -type f -empty -o -type d -empty | ls -l | cut -d' ' -f9-
+find . -type f -empty -o -type d -empty | ls -l | cut -d' ' -f9-
