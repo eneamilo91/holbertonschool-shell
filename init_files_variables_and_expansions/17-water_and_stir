@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=16; ibase=2; $WATER + $STIR" | bc
+printf '%X\n' $((2#$WATER + 10#$STIR))
