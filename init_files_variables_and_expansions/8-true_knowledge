@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $TRUEKNOWLEDGE + 18)) /n
+echo $(( $TRUEKNOWLEDGE + 18 )) /n
