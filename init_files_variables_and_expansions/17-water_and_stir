@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%x" $(echo $((printf "%d" $WATER + $STIR))) 
+printf "%x" $((10#$(echo $((printf "%d" $((2#$WATER)) + $STIR)))))
