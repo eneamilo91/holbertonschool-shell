@@ -1,2 +1,2 @@
 #!/bin/bash
-find .-type f -name "*.gif" -o- -type f -name ".*.gif" | ls -lS --ignore-case |cut -d -f11- 
+find . -type f -name "*.gif" | ls -lS --ignore-case | cut -d ' ' -f 9 
