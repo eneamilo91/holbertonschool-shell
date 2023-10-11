@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -n -r -k1,1 | head -n 11
+sort -n -r -k1,1 | head -n 11 | cut -d " " -f1
